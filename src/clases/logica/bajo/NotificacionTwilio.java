@@ -1,4 +1,6 @@
-package clases.logica;
+package clases.logica.bajo;
+
+import clases.logica.alto.Notificacion;
 
 public class NotificacionTwilio implements Notificacion {
 

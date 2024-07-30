@@ -1,4 +1,4 @@
-package clases.logica;
+package clases.logica.alto;
 
 public class Transferencia {
 
@@ -13,5 +13,6 @@ public class Transferencia {
         //Mover el dinero & consignar
         //Notificacion notificacion = new Notificacion();
         notificacion.notificarCliente();
+
     }
 }
