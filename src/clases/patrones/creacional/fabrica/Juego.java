@@ -2,6 +2,12 @@ package clases.patrones.creacional.fabrica;
 
 public class Juego {
 
+    private AbstractFactory factory;
+
+    public Juego(AbstractFactory factory) {
+        this.factory = factory;
+    }
+
     /*
     public void empezarJuego(String tipoJuego) {
         Goomba goomba = null;
@@ -20,7 +26,7 @@ public class Juego {
     }
      */
 
-    public void empezarJuego(AbstractFactory factory) {
+    public void empezarJuego() {
         Goomba goomba = factory.crearGoomba();
         Tortuga tortuga = factory.crearTortuga();
 
